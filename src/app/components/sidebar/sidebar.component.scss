@@ -13,4 +13,15 @@ mat-sidenav-container {
     background-color: azure;
     width: 60%;
   }
+
+  img {
+    min-width: 10%;
+    min-height: 10%;
+    max-height: 10%;
+    max-width: 10%;
+  }
+
+  button {
+    margin-top: 200%;
+  }
 }

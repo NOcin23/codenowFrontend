@@ -3,7 +3,7 @@
     Content
   </mat-sidenav>
   <mat-sidenav-content>
-    <p *ngIf="opened"><button mat-button (click)="sidenav.toggle()">toggle</button></p>
-    <p *ngIf="!opened"><button mat-button (click)="sidenav.toggle()">toggle</button></p>
+    <p *ngIf="opened"><button mat-button opened="false" (click)="sidenav.toggle()"><img src="./../../../assets/arrow-icon-png-transparent-14.png"></button></p>
+    <p *ngIf="!opened"><button mat-button opened="true" (click)="sidenav.toggle()"><img src="./../../../assets/arrow-icon-right-arrow-png-image.jpg"></button></p>
   </mat-sidenav-content>
 </mat-sidenav-container>
