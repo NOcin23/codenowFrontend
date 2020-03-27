@@ -1,6 +1,16 @@
 mat-sidenav-container {
+  width: 10%;
   height: 100%;
   .sidenav {
     z-index: -9999;
+  }
+
+  mat-sidenav-content {
+    background-color: white;
+  }
+
+  mat-sidenav {
+    background-color: azure;
+    width: 60%;
   }
 }

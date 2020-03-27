@@ -1,8 +1,9 @@
 <mat-sidenav-container >
   <mat-sidenav #sidenav mode="side">
-    Sidenav content
+    Content
   </mat-sidenav>
   <mat-sidenav-content>
-    <p><button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button></p>
+    <p *ngIf="opened"><button mat-button (click)="sidenav.toggle()">toggle</button></p>
+    <p *ngIf="!opened"><button mat-button (click)="sidenav.toggle()">toggle</button></p>
   </mat-sidenav-content>
 </mat-sidenav-container>
